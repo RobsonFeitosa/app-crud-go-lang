@@ -4,6 +4,7 @@ import (
 	"database/sql",
 	"fmt",
 	"github.com/RobsonFeitosa/app-crud-go-lang/config"
+	_ "github.com/lib/pq"
 )
 
 func OpenConnection() (*sql.DB, error) {
